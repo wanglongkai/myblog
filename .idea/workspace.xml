@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="" />
+    <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/Test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/img/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/css_important.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/css_important.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/vue/vuex.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/vue/vuex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -27,8 +37,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/blog/img" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\aprojects\VueFolder\vuepress-starter\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
@@ -38,6 +49,7 @@
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\img" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\assets\img" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\public" />
     </key>
@@ -54,7 +66,7 @@
       <updated>1587717103373</updated>
       <workItem from="1587717105060" duration="2515000" />
       <workItem from="1587799446821" duration="2096000" />
-      <workItem from="1587863952961" duration="5026000" />
+      <workItem from="1587863952961" duration="6969000" />
     </task>
     <servers />
   </component>

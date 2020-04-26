@@ -6,9 +6,15 @@ module.exports = {
         ['link', {rel: 'icon', href: '/facicon.ico'}],
         ['meta', {name: 'keywords', content: '前端,vue,博客'}]
     ],
-    plugins: ['@vuepress/nprogress'],
+    smoothScroll: true,
+    plugins: [
+        '@vuepress/nprogress',
+        '@vuepress/back-to-top',
+        '@vuepress/medium-zoom'
+    ],
     themeConfig: {
         logo: '/navlogo.jpg',
+        lastUpdated: '最后更新时间',//基于git的commit，所以不一定会生效
         nav: [
             {text: 'Home', link: '/'},
             {
