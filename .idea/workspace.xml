@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/Test.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/img/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/other/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/vue/vue_basic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md书写规范" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/other/css_important.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/css_important.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/vue/vuex.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/vue/vuex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/facicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/self.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/regexp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/regexp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/vue/vue_basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/vue/vue_basic/vue_basic.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue\vue_basic" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\public" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\assets" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress" />
@@ -66,11 +74,21 @@
       <updated>1587717103373</updated>
       <workItem from="1587717105060" duration="2515000" />
       <workItem from="1587799446821" duration="2096000" />
-      <workItem from="1587863952961" duration="6969000" />
+      <workItem from="1587863952961" duration="15771000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587879718696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587879718696" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587879834344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587879834344" />
   </component>
 </project>

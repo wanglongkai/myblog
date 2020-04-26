@@ -1,21 +1,31 @@
 ---
 home: true
-heroImage: /logo.jpg
+heroImage: /self.jpg
 heroText: 狼子笔记
-tagline: 作者-王龙楷
-actionText: 前往浏览 →
-actionLink: /
+tagline: 博主-王龙楷
 features:
 - title: 个人笔记
   details: 自己学习和工作中的一些笔记，方便自己查阅，也方便有缘人观览。
-- title: 主要内容
-  details: 核心内容是前端方向的基础知识。HTML5，css3,javaScript,Vue等。
-- title: 博客风格
-  details: 大道至简，Vue文档风格。
+- title: Vue模块
+  details: 有关Vue渐进式框架的知识点，主要包括Vue基础、Vuex、Vue-router。
+- title: JavaScript模块
+  details: 原生JavaScript(ES5,ES6...)知识点笔记。
+- title: Html+Css模块
+  details: Html和Css的笔记目录。
+- title: Others模块
+  details: 涉猎的其他知识的笔记目录
+- title: External模块
+  details: 收集的比较好的博客或网站
 footer: MIT Licensed | Copyright @ wanglongkai 狼子笔记
 ---
-### 快速开始
-```javascript
-console.log(1111);
- //我就是试试
+### 联系博主
+```text
+邮箱：2064819994@qq.com/13699283312@163.com
+github:https://github.com/wanglongkai
 ```
+
+<style>
+.hero img{
+    border-radius: 50%;
+}
+</style>
