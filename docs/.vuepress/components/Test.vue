@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>我是vue组件</h2>
+        <p class="title">我是vue组件</p>
         <p class="ph">居然可以在Markdown中用Vue组件，vuepress是真的牛逼啊！</p>
         <label>
             试试数据双向绑定：
@@ -23,7 +23,8 @@
 </script>
 
 <style scoped>
-    h2{
+    .title{
+        font-size: 23px;
         color:pink;
     }
     .ph{

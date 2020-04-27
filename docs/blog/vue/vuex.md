@@ -1,6 +1,6 @@
 # **vuex**教程
 
-**Vuex核心概念：**
+## Vuex核心概念
 
 - `state`:当于组件中的data数据。
 - `getters`:相当于组件中的计算属性。
@@ -9,12 +9,7 @@
 - `modules`:模块化，每个modules都有自己的state、getters、mutations、actions。
 
 
-
-------
-
-[TOC]
-
-### 初级使用：--不涉及`modules`
+## 初级使用：--不涉及`modules`
 
 <span style="color:red;">**初级-目录结构：**</span>
 
@@ -84,25 +79,25 @@ new Vue({
 ```javascript
 import {mapState,mapGetters,mapMutations,mapActions} from 'vuex';
 
-# 获取state
+// 获取state
 1. this.$store.state.name
 2. computed:{
     ...mapState(['name'])
 }
     
-#获取getters
+// 获取getters
 1. this.$store.getters.upperName
 2. computed:{
     ...mapGetters(['upperName'])
 }
     
-#提交mutations
+// 提交mutations
 1. this.$store.commit("increment",2)
 2. methods:{
     ...mapMutations(['increment'])
 }
     
-#派发actions
+// 派发actions
 1. this.$store.dispatch('getInfo',2)
 2. methods:{
     ...mapActions(['getInfo'])
@@ -113,7 +108,7 @@ import {mapState,mapGetters,mapMutations,mapActions} from 'vuex';
 
 -----
 
-### 进阶使用：--包含modules的情况
+## 进阶使用：--包含modules的情况
 
 假设分`computer`和`phone`两个模块的状态管理
 
@@ -214,7 +209,7 @@ new Vue({
 import {mapState,mapGetters,mapMutations,mapActions} from 'vuex';
 
 computed:{
-      # 映射state
+      // 映射state
      ...mapState({
          computerName: state => state.computer.computerName,
          Comcount: state => state.computer.count,
@@ -222,7 +217,7 @@ computed:{
          Phocount: state => state.phone.count,
      }),
 
-     # 映射getters
+     // 映射getters
      ...mapGetters({
          comUP: 'computer/computerNameToUpper',
          phUP: 'phone/phoneNameToUpper'
@@ -230,12 +225,12 @@ computed:{
 }
 
 methods:{
-    # 映射mutations
+    // 映射mutations
     ...mapMutations({
         commitAdd: "computer/increment"
     }),
         
-    # 映射actions
+    // 映射actions
     ...mapActions({
         getMore: "computer/getMore"
     }),
@@ -257,7 +252,7 @@ this.$store.dispatch("computer/getMore", 2);
 
 
 
-### 小知识点
+## 小知识点
 
 - 组件中可以提交(`commit`)mutations--[`不涉及异步请求时`]，也可以派发(`dispatch`)acions--[`涉及异步请求时`]。
 - mutations函数可以互相commit，actions可以互相dispatch。

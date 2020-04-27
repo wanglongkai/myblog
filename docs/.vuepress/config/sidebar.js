@@ -10,6 +10,9 @@ module.exports = {
         '防抖和节流'
     ],
     '/blog/other/': [
-        '', 'regexp', 'markdown_grm', 'js_important', 'css_important'
+        '', 'regexp', 'markdown_grm', 'js_important', 'css_important','vuepress_use'
+    ],
+    '/blog/css/':[
+        '','css-segment','css-view','grid','less'
     ]
 };
