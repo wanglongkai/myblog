@@ -2,9 +2,9 @@
  
  ## 插入图片
  ```markdown
- ![自定义文本](../img/test.jpg)
+ ![自定义文本](../assets/img/test.jpg)
 ```
- ![Test](../img/test.jpg)    
+ ![Test](../assets/img/test.jpg)    
  
  
  ## 使用表情

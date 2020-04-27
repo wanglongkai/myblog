@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/javascript/ES_Next/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/javascript/ES_Next/promise.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/other/initserver.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/other/reSystem.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/JavaScript中的宽高和偏移.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/JavaScript中的宽高和偏移.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/JavaScript代码片段.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/JavaScript代码片段.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/JavaScript技巧.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/JavaScript技巧.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/防抖和节流.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/防抖和节流.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/css/css-segment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/css-segment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/css/css-view.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/css-view.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/css/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/css/grid.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/grid.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/css/less.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/less.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/img/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/assets/img/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/JavaScript中的宽高和偏移.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/hw_offset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/JavaScript代码片段.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/code_segment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/JavaScript技巧.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/js_art.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/防抖和节流.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/javascript/ES3_5/debounce_throttle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/vuepress_use.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/vuepress_use.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +40,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ayoH7dbqsLyIsoBUGVjn6Q3e1g" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +50,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\javascript\ES3_5" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue\vue_basic" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\public" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\assets" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\img" />
@@ -66,18 +83,25 @@
       <updated>1587717103373</updated>
       <workItem from="1587717105060" duration="2515000" />
       <workItem from="1587799446821" duration="2096000" />
-      <workItem from="1587863952961" duration="20414000" />
+      <workItem from="1587863952961" duration="22259000" />
+      <workItem from="1587956821810" duration="159000" />
+      <workItem from="1587968326866" duration="243000" />
+      <workItem from="1587968667843" duration="457000" />
+      <workItem from="1587974317069" duration="206000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587879718696">
+    <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587948725948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587879718696" />
+    <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587948725948" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587879834344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

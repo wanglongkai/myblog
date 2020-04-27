@@ -4,7 +4,7 @@ module.exports = [
         text: 'Vue',
         items: [
             {text: 'vuex', link: '/blog/vue/vuex.md'},
-            {text:'vue-router',link:'blog/vue/vue-router.md'},
+            {text:'vue-router',link:'/blog/vue/vue-router.md'},
             {text: 'vue-mockjs', link: '/blog/vue/vue_mockjs.md'},
             {text: 'vue-basic', link: '/blog/vue/vue_basic/'}
         ]
@@ -12,20 +12,16 @@ module.exports = [
     {
         text: 'javascript',
         items: [
-            {text: 'ES3/5', link: '/blog/javascript/防抖和节流.md'}
+            {text: 'ES3_5', link: '/blog/javascript/ES3_5/'},
+            {text: 'ES_Next', link: '/blog/javascript/ES_Next/'}
         ]
     },
     {
-        text:'Html+Css',
-        link:'/blog/css/'
+        text:'DOM_BOM+Css',
+        link:'/blog/DBCss/'
     },
     {
         text: 'others',link:'/blog/other/'
-        // items: [
-        //     {text: '正则表达式', link: '/blog/other/regexp.md'},
-        //     {text: 'markdown语法', link: '/blog/other/markdown_grm.md'},
-        //     {text: 'js重要知识点', link: '/blog/other/js_important.md'},
-        // ]
     },
     {
         text: 'external',
