@@ -35,6 +35,7 @@ module.exports = {
         'grid',
         'less',
         'git',
-        'IFC'
+        'IFC',
+        'BFC'
     ]
 };
