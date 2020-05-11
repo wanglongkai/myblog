@@ -33,6 +33,7 @@ module.exports = {
         'css-segment',
         'css-view',
         'grid',
+        'flex',
         'less',
         'git',
         'IFC',

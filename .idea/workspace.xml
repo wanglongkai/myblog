@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/BFC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/BFC01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/flex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-align-content.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-align-item.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-align-self.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-direction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-grow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-justify-content.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-shrink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-wrap.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
     </list>
@@ -42,18 +49,18 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\aprojects\VueFolder\vuepress-starter\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\javascript\ES3_5" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue\vue_basic" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets\img" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\img" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\assets\img" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\javascript\ES3_5" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue\vue_basic" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\public" />
     </key>
   </component>
@@ -80,7 +87,8 @@
       <workItem from="1589157276929" duration="1445000" />
       <workItem from="1589179541036" duration="9000" />
       <workItem from="1589191435832" duration="303000" />
-      <workItem from="1589196070485" duration="95000" />
+      <workItem from="1589196070485" duration="215000" />
+      <workItem from="1589198994739" duration="1631000" />
     </task>
     <servers />
   </component>
