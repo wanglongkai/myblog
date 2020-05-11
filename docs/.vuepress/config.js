@@ -1,4 +1,3 @@
-const moment = require('moment');
 const nav = require('./config/nav');
 const sidebar = require('./config/sidebar');
 
@@ -20,7 +19,6 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        // logo: '/navlogo.jpg',
         lastUpdated: 'Update Time',//基于git的commit，所以不一定会生效
         nav: nav,
         sidebar:sidebar

@@ -1,9 +1,5 @@
 # 积累的JavaScript代码段
 
-
-
-[TOC]
-
 ## 隐藏所有指定的元素
 
 ```javascript

@@ -1,13 +1,7 @@
-# css代码段积累
+# 常用css代码段
 
-
-
-[TOC]
-
-
-
-### **清除浮动（子元素浮动，父级高度塌陷）**
-
+## **清除浮动**
+子元素浮动，父级高度塌陷。
 ```css
 .clearfix:after {
   content: "\00A0";
@@ -27,7 +21,7 @@
 
 
 
-### **垂直水平居中**
+## **垂直水平居中**
 
 ```css
 /*已知宽高：绝对定位+margin-auto*/
@@ -55,7 +49,7 @@
 
 
 
-### **文本末尾添加省略号**
+## **文本末尾添加省略号**
 
 ```css
 /*宽高固定，单行省略*/
@@ -73,7 +67,7 @@
 
 
 
-### **文本阴影**
+## **文本阴影**
 
 ```css
     color: transparent;
@@ -82,7 +76,7 @@
 
 
 
-### **自定义文本选中样式**
+## **自定义文本选中样式**
 
 ```css
 /* 注意只能修改这两个属性 字体颜色 选中背景颜色*/
@@ -98,7 +92,7 @@ element::-moz-selection {
 
 
 
-### **input-placeholder样式**
+## **input-placeholder样式**
 
 ```css
 input::-webkit-input-placeholder {
@@ -120,7 +114,7 @@ input::-ms-input-placeholder {
 
 
 
-### **首字下沉**
+## **首字下沉**
 
 ```css
 element:first-letter {
@@ -132,7 +126,7 @@ element:first-letter {
 
 
 
-### **小三角**
+## **小三角**
 
 ```css
 /*可通过控制border宽度来实现不同长度的三角形*/
@@ -144,7 +138,7 @@ border-bottom-color: red;
 
 
 
-### **统一input、select、textarea宽度**
+## **统一input、select、textarea宽度**
 
 ```css
 /*不同浏览器的 input、select、textarea 的盒子模型宽度计算方式不同，统一为最常见的 content-box。*/
@@ -159,7 +153,7 @@ textarea {
 
 
 
-### **一行文字两端对齐**
+## **一行文字两端对齐**
 
 ```css
 div{
@@ -176,7 +170,7 @@ div::after{/*模拟最后一行*/
 
 
 
-### **增强用户体验，使用伪元素实现增大点击热区**
+## **伪元素实现增大点击热区**
 
 ```css
 .btn{
@@ -194,7 +188,7 @@ div::after{/*模拟最后一行*/
 
 
 
-### **显示链接地址**
+## **显示链接地址**
 
 ```css
 a::after{
@@ -204,8 +198,8 @@ a::after{
 
 
 
-### **渐变文字：** 方法有很多种，可以自行百度。这里记录自己最早接触的一种
-
+## **渐变文字** 
+方法有很多种，可以自行百度。这里记录自己最早接触的一种。
 ```css
 .gradient-text{
 	background-image: -webkit-linear-gradient(bottom,red,blue,yellow);/*背景渐变*/
@@ -216,7 +210,7 @@ a::after{
 
 
 
-### **使用max-height和overflow实现css滑块**
+## **max-height、overflow实现css滑块**
 
 ```css
 <div class="slider">
@@ -239,7 +233,7 @@ a::after{
 
 
 
-### **页面顶部阴影**
+## **页面顶部阴影**
 
 ```css
 body:before{
@@ -256,7 +250,7 @@ body:before{
 
 
 
-### **彩色图片显示为黑白图片。filter属性**
+## **彩色图片显示为黑白图片-filter属性**
 
 ```css
 img{
@@ -271,7 +265,7 @@ img{
 
 
 
-### **自定义input框样式**
+## **自定义input框样式**
 
 ```css
 # input框本身的样式是不容易修改的；使用label标签自定义

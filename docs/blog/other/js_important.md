@@ -1,10 +1,14 @@
-### 异步编程
+# JavaScript重难点
 
-​		两个概念：宏任务（Ajax请求、定时器、事件绑定）、微任务（promise从pending到fullfilled和rejected、async/await中await下面的代码）。
+## 异步编程
 
-​		注意点：await等待的代码会立即执行，放入微任务的是await下面的代码。
+**两个概念：**    
+宏任务（Ajax请求、定时器、事件绑定）    
+微任务（promise从pending到fullfilled和rejected、async/await中await下面的代码）。
 
-例子：
+注意点：await等待的代码会立即执行，放入微任务的是await下面的代码。
+
+**例子：**
 
 ```javascript
 async function async1() {
@@ -51,7 +55,7 @@ setTimeout
 
 
 
-### 继承
+## 继承
 
 ```javascript
 /*
@@ -83,7 +87,7 @@ setTimeout
 
 
 
-### 闭包
+## 闭包
 
 > 闭包是由函数以及声明该函数的词法作用域组合而成的。
 
@@ -91,7 +95,7 @@ setTimeout
 
 
 
-### 原型链
+## 原型链
 
 构造函数、实例、原型三者的关系。如下：
 

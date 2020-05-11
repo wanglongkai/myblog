@@ -33,10 +33,10 @@ node环境不是必须的，但是初始化一下也是很好的。
    ```powershell
    node -v
    npm -v
-   ```
-
-
-
+   ```    
+       
+           
+           
 ## Java环境搭建
 
 1. 下载JDK

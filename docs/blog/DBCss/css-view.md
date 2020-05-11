@@ -1,4 +1,6 @@
-#### 移动端1px解决方案
+# css技巧
+
+## 移动端1px解决方案
 
 **产生原因**：设备像素比
 
@@ -40,12 +42,9 @@ window.devicePixelRatio = 物理像素/css像素
                -1px 0  1px -1px #e5e5e5;   //左边线
    ```
 
-
-
-#### position:sticky
+## position:sticky
 
 css3新增的定位属性。目前兼容性不够好。火狐和chrome50以上才支持，IE不支持。
-
 设置该属性值后，元素仍然处于文档流中，只是当元素要被移出视口时，会变成和fixed类似的形态。
 
 ```javascript
@@ -60,10 +59,7 @@ p{
 ```
 
 
-
-
-
-#### 实现 (5).add(3).minus(2) 功能
+## 实现 (5).add(3).minus(2) 功能
 
 ```javascript
 Number.prototype.add = function(n){

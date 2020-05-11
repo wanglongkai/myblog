@@ -2,17 +2,17 @@
 sidebarDepth:3
 ---
 
-# 在Vue中使用mock.js模拟接口数据
+# mock.js模拟接口数据
 
 
 
-### 安装mock.js
+## 安装mock.js
 
 ```javascript
 npm install mockjs --save
 ```
 
-### mock数据目录
+## mock数据目录
 
 1. 新建文件夹保存mock数据。比如`mockdata`。
 
@@ -44,7 +44,7 @@ npm install mockjs --save
      });
    
    Mock.mock("/postmethod",'post',(data)=>{
-       //data---{url,type,body}--post的路径，POST,post请求参数
+       //data---{url,type,body}---{post的路径，POST,post请求参数}
        return "返回的数据"
    })
    
@@ -53,7 +53,7 @@ npm install mockjs --save
    require("./computer/index.js");
    ```
 
-### 引入到项目main.js
+## 引入到项目main.js
 
 ```javascript
 //导入mock数据
@@ -62,7 +62,7 @@ require("./mockdata/index");
 
 
 
-###  使用mock数据
+##  使用mock数据
 
 ```javascript
 # 建议全局引入axios
@@ -79,7 +79,7 @@ Vue.prototype.$axios = axios;
 
 
 
-# mock语法记录
+## mock语法记录
 
 参数释义：`pool`备选池
 

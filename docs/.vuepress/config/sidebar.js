@@ -34,6 +34,7 @@ module.exports = {
         'css-view',
         'grid',
         'less',
-        'git'
+        'git',
+        'IFC'
     ]
 };
