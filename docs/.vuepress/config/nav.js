@@ -3,31 +3,31 @@ module.exports = [
     {
         text: 'Vue',
         items: [
+            {text: 'vue核心库', link: '/blog/vue/vue_basic/'},
             {text: 'vuex', link: '/blog/vue/vuex.md'},
-            {text:'vue-router',link:'/blog/vue/vue-router.md'},
-            {text: 'vue-mockjs', link: '/blog/vue/vue_mockjs.md'},
-            {text: 'vue-basic', link: '/blog/vue/vue_basic/'}
+            {text:'vue-router',link:'/blog/vue/vue_router.md'},
+            {text: 'vue-mockjs', link: '/blog/vue/vue_mockjs.md'}
         ]
     },
     {
-        text: 'javascript',
+        text: 'ECMAScript',
         items: [
-            {text: 'ES3_5', link: '/blog/javascript/ES3_5/'},
-            {text: 'ES_Next', link: '/blog/javascript/ES_Next/'}
+            {text: 'ES3_5', link: '/blog/ECMAScript/ES3_5/'},
+            {text: 'ES_Next', link: '/blog/ECMAScript/ES_Next/'}
         ]
     },
     {
-        text:'DOM_BOM+Css',
+        text:'DOM+BOM+CSS',
         link:'/blog/DBCss/'
     },
     {
-        text: 'others',link:'/blog/other/'
+        text: 'Others',link:'/blog/other/'
     },
     {
-        text: 'external',
+        text: '我的作品',
         items: [
-            {text: '阮一峰', link: 'http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?^%$'},
-            {text: '张鑫旭', link: 'https://www.zhangxinxu.com/wordpress/'}
+            {text:'模仿小米网首页',link:'http://119.45.114.204:8080/xiaomi/index.html'},
+            {text:'我的组件库React',link:'http://119.45.114.204:8080/graduation-design/index.html'}
         ]
     }
 ];

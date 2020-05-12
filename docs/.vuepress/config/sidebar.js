@@ -5,16 +5,17 @@ module.exports = {
     ],
     '/blog/vue/': [
         'vuex',
+        'vue_router',
         'vue_mockjs'
     ],
-    '/blog/javascript/ES3_5/':[
+    '/blog/ECMAScript/ES3_5/':[
         '',
         'code_segment',
         'debounce_throttle',
         'hw_offset',
         'js_art'
     ],
-    '/blog/javascript/ES_Next/':[
+    '/blog/ECMAScript/ES_Next/':[
         '',
         'promise'
     ],

@@ -14,8 +14,8 @@ features:
   details: Html和Css的笔记目录。
 - title: Others模块
   details: 涉猎的其他知识的笔记目录
-- title: External模块
-  details: 收集的比较好的博客或网站
+- title: 我的作品
+  details: 个人在工作和闲暇时的一些作品
 footer: MIT Licensed | Copyright @ wanglongkai 狼子笔记
 ---
 ### 联系博主
