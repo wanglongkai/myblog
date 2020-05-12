@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/flex.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-align-content.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-align-item.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-align-self.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-direction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-grow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-justify-content.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-shrink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/flex-wrap.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +79,8 @@
       <workItem from="1589179541036" duration="9000" />
       <workItem from="1589191435832" duration="303000" />
       <workItem from="1589196070485" duration="215000" />
-      <workItem from="1589198994739" duration="1631000" />
+      <workItem from="1589198994739" duration="1952000" />
+      <workItem from="1589244699225" duration="122000" />
     </task>
     <servers />
   </component>

@@ -4,10 +4,10 @@ const sidebar = require('./config/sidebar');
 module.exports = {
     base: '/wanglk/',
     title: '狼子笔记-个人博客',
-    description: '个人博客,前端笔记,面试技巧,Vue,javascript,DBCss,html5',
+    description: '王龙楷个人博客,王龙楷,狼子笔记,个人博客,前端笔记,面试技巧,Vue,javascript,DBCss,html5',
     head: [
         ['link', {rel: 'icon', href: '/favicon.ico'}],
-        ['meta', {name: 'keywords', content: '前端,vue,博客,javascript,html,DBCss'}]
+        ['meta', {name: 'keywords', content: '王龙楷个人博客,王龙楷,狼子笔记,个人博客,前端笔记,前端,vue,博客,javascript,html,DBCss'}]
     ],
     smoothScroll: true,
     plugins: [
