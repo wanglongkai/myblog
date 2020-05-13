@@ -11,6 +11,7 @@ sidebarDepth:3
 ```javascript
 npm install mockjs --save
 ```
+<br/>
 
 ## mock数据目录
 
@@ -30,7 +31,7 @@ npm install mockjs --save
 3. 模拟接口：
 
    ```javascript
-   # computer/index.js
+   // computer/index.js
    import Mock from "mockjs";
    Mock.mock("/getcomputer", 'get', {
        "data": {
@@ -49,9 +50,10 @@ npm install mockjs --save
    })
    
    
-   # mockdata/index.js
+   // mockdata/index.js
    require("./computer/index.js");
    ```
+<br/>
 
 ## 引入到项目main.js
 
@@ -60,23 +62,23 @@ npm install mockjs --save
 require("./mockdata/index");
 ```
 
-
+<br/>
 
 ##  使用mock数据
 
 ```javascript
-# 建议全局引入axios
+// 建议全局引入axios
 import axios from 'axios'
 Vue.prototype.$axios = axios;
 
-# 组件内调用接口
+// 组件内调用接口
  this.$axios.get("/getcomputer").then((data)=>{
      console.log(data);
  })
 ```
 
 
-
+<br/>
 
 
 ## mock语法记录
@@ -157,7 +159,7 @@ m-->6
 //秒
 ss-->02
 s-->2
-# 自己用上面的标签自己组织格式即可，比如：
+// 自己用上面的标签自己组织格式即可，比如：
 "@date('yyyy/MM/dd HH:mm:ss')"
 
 ```
