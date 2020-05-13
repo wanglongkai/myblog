@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/arrowfunction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/module.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1589246133787" duration="1707000" />
       <workItem from="1589248716821" duration="1614000" />
       <workItem from="1589262791930" duration="3645000" />
-      <workItem from="1589331192820" duration="68000" />
+      <workItem from="1589331192820" duration="1857000" />
     </task>
     <servers />
   </component>
@@ -100,17 +101,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587948725948" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1589263923799">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1589333138939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589263923799" />
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589333138939" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1589079233714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589079233714" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587879834344">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589331689094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587879834344" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589331689094" />
   </component>
 </project>
