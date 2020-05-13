@@ -17,6 +17,7 @@ module.exports = {
     ],
     '/blog/ECMAScript/ES_Next/':[
         '',
+        'arrowfunction',
         'promise'
     ],
     '/blog/other/': [
