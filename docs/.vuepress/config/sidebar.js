@@ -11,6 +11,7 @@ module.exports = {
     '/blog/ECMAScript/ES3_5/':[
         '',
         'code_segment',
+        'myCookiejs',//自己封装的Cookie操作库
         'debounce_throttle',
         'hw_offset',
         'js_art'
