@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/myCookiejs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/cookies.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/code_segment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/code_segment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/hw_offset.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/hw_offset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/js_art.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/js_art.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/myCookiejs.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/myCookiejs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +91,7 @@
       <workItem from="1589262791930" duration="3645000" />
       <workItem from="1589331192820" duration="2495000" />
       <workItem from="1589338204328" duration="26000" />
-      <workItem from="1589356549692" duration="67000" />
+      <workItem from="1589356549692" duration="3029000" />
     </task>
     <servers />
   </component>

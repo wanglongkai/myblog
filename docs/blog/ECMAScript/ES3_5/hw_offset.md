@@ -1,4 +1,4 @@
-# JavaScript中的宽高和偏移
+# JavaScript宽高和偏移
 
 >  详解请阅：window、Element、HTMLElement、MouseEvent 四个对象。
 

@@ -1,8 +1,8 @@
-# Cookie操作库
+# Cookie操作模块
 
 ::: tip 提示
 
-自己封装的操作cookie的库。包括：set、get、remove三个方法。
+自己封装的操作cookie的模块。包括：set、get、remove三个方法。
 
 :::
 
@@ -72,7 +72,7 @@ cookie.remove('bar', {
 
 
 
-## Cookie操作库-源代码
+## Cookie操作模块-源代码
 
 ```javascript
 /* ===自己封装的cookie操作模块=== */

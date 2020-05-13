@@ -1,4 +1,4 @@
-# 积累的JavaScript代码段
+# JavaScript代码段
 
 ## 隐藏所有指定的元素
 

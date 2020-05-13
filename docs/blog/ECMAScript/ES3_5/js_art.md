@@ -1,4 +1,4 @@
-# 一些JavaScript技巧
+# JavaScript技巧
 
 1. 使用`!!`将变量转换成布尔类型。它能自动将任何类型的数据转换成布尔值，只有0，null,"",undifined和NaN为false，其他都是true。
 
