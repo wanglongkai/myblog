@@ -1,7 +1,6 @@
 module.exports = {
     '/blog/vue/vue_basic/': [
-        '',
-        'vue_basic'
+        ''
     ],
     '/blog/vue/': [
         'vuex',
@@ -10,6 +9,7 @@ module.exports = {
     ],
     '/blog/ECMAScript/ES3_5/':[
         '',
+        'js_important',
         'code_segment',
         'js_art',
         'cookies',
@@ -29,20 +29,18 @@ module.exports = {
         'regexp',
         'git',
         'markdown_grm',
-        'js_important',
-        'css_important',
         'vuepress_use',
         'initserver',
         'reSystem'
     ],
     '/blog/DBCss/':[
         '',
+        'css_important',
         'css-segment',
         'css-view',
         'grid',
         'flex',
         'less',
-        'git',
         'IFC',
         'BFC'
     ]

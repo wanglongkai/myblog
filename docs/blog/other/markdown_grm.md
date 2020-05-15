@@ -119,12 +119,9 @@ markdown支持有序列表和无序列表
 ## 链接
 
 ```markdown
-行内链接：[markdown教程](http://www.markdown.cn/#overview"title")     
-参考式链接：[链接到百度][https://www.baidu.com/]
+行内链接：[markdown教程](http://www.markdown.cn/#overview"title")    
 ```
 行内链接：[markdown教程](http://www.markdown.cn/#overview"title")     
-
-参考式链接：[链接到百度][https://www.baidu.com/]
 
 
 
@@ -138,14 +135,7 @@ _斜体_
 ___又粗又斜___
 ~~删除线~~
 ```
-**加粗**
-__加粗__    
-*斜体*
-_斜体_
-***又粗有斜***
-___又粗又斜___
-~~删除线~~
-
+**加粗**  __加粗__    *斜体*  _斜体_    ***又粗有斜***  ___又粗又斜___  ~~删除线~~    
 **如果要 * 或 _ 被当作普通的符号，只需要符号两边都有空白。**
 
 
@@ -168,7 +158,7 @@ ___又粗又斜___
 ```
 `print`  
 
-代码段
+代码段：三个反引号
 ```
 function test(){
     console.log("this is a code Segment");
@@ -177,7 +167,7 @@ function test(){
 
 ## 图片
 ```markdown
-![图片加载失败时的替代文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552145945866&di=ffe023d042133f85e1856b6cedcfe0b3&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D500860301%2C4212740918%26fm%3D214%26gp%3D0.jpg "图片title")
+![图片加载失败时的替代文字](url "图片title")
 ```
 ![图片加载失败时的替代文字](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552145945866&di=ffe023d042133f85e1856b6cedcfe0b3&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D500860301%2C4212740918%26fm%3D214%26gp%3D0.jpg "图片title")
 
@@ -195,9 +185,7 @@ function test(){
 ```markdown
 <https://www.baidu.com/>
 ```
-<https://www.baidu.com/>
-
-相当于html中的：
+<https://www.baidu.com/> 相当于html中的：
 
 ```
 <a href="http://example.com/">http://example.com/</a>

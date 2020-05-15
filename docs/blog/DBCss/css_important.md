@@ -1,6 +1,6 @@
-# css重要知识点
+# css易错点
 
-1. 绝对定位元素的**百分比宽高**是相对于临近的position不为static的祖先元素的padding-box来计算的。
+1. 绝对定位元素的**百分比宽高**是相对于邻近的position不为static的祖先元素的padding-box来计算的。
 
 2. 非绝对定位元素的百分比宽高是相对于父元素的content-box来计算的。
 

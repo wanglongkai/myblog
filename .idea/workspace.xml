@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/other/git.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/git.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/css_important.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/css_important.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/js_important.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/js_important.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/markdown_grm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/markdown_grm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/vue/vue_basic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/vue/vue_basic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/vue/vue_basic/vue_basic.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +54,11 @@
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES3_5" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\javascript\ES3_5" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue\vue_basic" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\.vuepress\public" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -89,7 +93,7 @@
       <workItem from="1589331192820" duration="2495000" />
       <workItem from="1589338204328" duration="26000" />
       <workItem from="1589356549692" duration="3356000" />
-      <workItem from="1589506836388" duration="81000" />
+      <workItem from="1589506836388" duration="3608000" />
     </task>
     <servers />
   </component>
