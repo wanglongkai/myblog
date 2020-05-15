@@ -27,6 +27,7 @@ module.exports = {
     '/blog/other/': [
         '',
         'regexp',
+        'git',
         'markdown_grm',
         'js_important',
         'css_important',
