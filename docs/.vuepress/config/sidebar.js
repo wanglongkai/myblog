@@ -14,6 +14,7 @@ module.exports = {
         'js_art',
         'cookies',
         'myCookiejs',//自己封装的Cookie操作库
+        'designModule',
         'debounce_throttle',
         'hw_offset',
 
