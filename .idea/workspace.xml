@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/css_background.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vuepress-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vuepress-starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/MyCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/designModule.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/designModule.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/vue/vue_mockjs.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/vue/vue_mockjs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/vue/vuex.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/vue/vuex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -99,7 +95,7 @@
       <workItem from="1589623879671" duration="1479000" />
       <workItem from="1589763753380" duration="1400000" />
       <workItem from="1589788416752" duration="1692000" />
-      <workItem from="1589791067419" duration="54000" />
+      <workItem from="1589791067419" duration="1355000" />
     </task>
     <servers />
   </component>

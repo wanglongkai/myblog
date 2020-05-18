@@ -10,14 +10,14 @@ module.exports = [
         ]
     },
     {
-        text: 'ECMAScript',
+        text: 'JavaScript',
         items: [
-            {text: 'ES3_5', link: '/blog/ECMAScript/ES3_5/'},
+            {text: 'JS3_5', link: '/blog/ECMAScript/ES3_5/'},
             {text: 'ES_Next', link: '/blog/ECMAScript/ES_Next/'}
         ]
     },
     {
-        text:'DOM+BOM+CSS',
+        text:'DOM+CSS',
         link:'/blog/DBCss/'
     },
     {
