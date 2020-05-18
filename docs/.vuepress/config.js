@@ -21,6 +21,7 @@ module.exports = {
     themeConfig: {
         lastUpdated: 'Update Time',//基于git的commit，所以不一定会生效
         nav: nav,
-        sidebar:sidebar
+        sidebar:sidebar,
+        sidebarDepth: 2
     }
 };

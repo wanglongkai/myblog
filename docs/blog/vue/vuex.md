@@ -1,5 +1,7 @@
 # **vuex**教程
 
+[官方教程](https://vuex.vuejs.org/zh/)
+
 ## Vuex核心概念
 
 - `state`:当于组件中的data数据。

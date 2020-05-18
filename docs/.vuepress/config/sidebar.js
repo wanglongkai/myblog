@@ -39,6 +39,7 @@ module.exports = {
         'css_important',
         'css-segment',
         'css-view',
+        'css_background',
         'grid',
         'flex',
         'less',

@@ -1,9 +1,4 @@
----
-sidebarDepth:3
----
-
 # mock.js模拟接口数据
-
 
 
 ## 安装mock.js
