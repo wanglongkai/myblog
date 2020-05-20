@@ -28,7 +28,8 @@
 
 
 
-## Element.clientHeight/clientWidth--只读
+## Element.clientHeight/clientWidth
+只读
 
 元素<span style="color:red;"> CSS `height/width` + CSS `padding` - 滚动条高度 </span>(如果存在)。如果元素没有设置css属性，那么clientHeight/clientWidht的值取决于元素内容。
 
@@ -40,7 +41,8 @@
 
 
 
-## Element.scrollHeight/scrollWidth--只读
+## Element.scrollHeight/scrollWidth
+只读
 
 元素内容高度和宽度，包括溢出导致的不可见内容。包括padding但不包括border和margin。
 
@@ -50,7 +52,8 @@
 
 
 
-## Element.clientLeft/clientTop--只读
+## Element.clientLeft/clientTop
+只读
 
 元素的左边框和上边框的宽度，不包括margin和padding。
 
@@ -60,7 +63,8 @@
 
 
 
-## Element.scrollLeft/scrollTop--可读可写
+## Element.scrollLeft/scrollTop
+可读可写
 
 <span style='color:red;'>获取或设置滚动的距离</span>。对于body元素而言，该值就是页面在视口上部和左部溢出的部分。
 
@@ -68,13 +72,15 @@
 
 
 
-## HTMLElement.offsetHeight/offsetWidth--只读
+## HTMLElement.offsetHeight/offsetWidth
+只读
 
 元素的像素高度和宽度，包含该元素的`content+padding+border`，且是一个整数。如果出现滚动条，也包括滚动条的宽高。
 
 
 
-## HTMLElement.offsetLeft/offsetTop--只读
+## HTMLElement.offsetLeft/offsetTop
+只读
 
 返回`当前元素左/上border外边界`相对于offsetParent元素的`左/上border内边界`的偏移值。(通常只用在position不为static的元素上)
 
@@ -82,7 +88,8 @@
 
 
 
-## MouseEvent.clientX/Y--只读
+## MouseEvent.clientX/Y
+只读
 
 鼠标事件相对于浏览器可视区左上角的坐标
 
@@ -90,7 +97,8 @@
 
 
 
-## MouseEvent.pageX/Y--只读
+## MouseEvent.pageX/Y
+只读
 
 鼠标事件相对于整个网页左上角的坐标
 
@@ -98,7 +106,8 @@
 
 
 
-## MouseEvent.screenX/Y--只读
+## MouseEvent.screenX/Y
+只读
 
 鼠标事件相对于电脑屏幕左上角的坐标
 
@@ -106,7 +115,8 @@
 
 
 
-## MouseEvent.offsetX/Y--只读
+## MouseEvent.offsetX/Y
+只读
 
 鼠标事件相对于事件源元素左上角padding外边界的坐标
 
@@ -114,6 +124,7 @@
 
 
 
-## MouseEvent.X/Y--只读
+## MouseEvent.X/Y
+只读
 
 MouseEvent.clientX/Y的别名

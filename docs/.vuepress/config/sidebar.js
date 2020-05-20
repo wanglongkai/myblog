@@ -28,6 +28,7 @@ module.exports = {
     ],
     '/blog/other/': [
         '',
+        'axios',
         'regexp',
         'git',
         'markdown_grm',

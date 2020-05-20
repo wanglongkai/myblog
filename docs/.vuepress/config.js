@@ -11,15 +11,15 @@ module.exports = {
     ],
     smoothScroll: true,
     plugins: [
-        '@vuepress/nprogress',
         '@vuepress/back-to-top',
         '@vuepress/medium-zoom',
+        '@vuepress/nprogress',
         [
             '@vuepress/last-updated'
         ]
     ],
     themeConfig: {
-        lastUpdated: '作者：王龙楷；标签：原创；提交时间',//基于git的commit，所以不一定会生效
+        lastUpdated: '作者：王龙楷； 标签：原创； 提交时间',//基于git的commit，所以不一定会生效
         nav: nav,
         sidebar:sidebar,
         sidebarDepth: 2
