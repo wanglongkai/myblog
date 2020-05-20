@@ -2,7 +2,7 @@
 
 ## background <Badge text="简写属性"/>
 background是CSS简写属性。    
-集中定义    
+集中定义以下属性：    
 `background-origin`    
 `background-clip`    
 `background-image`    
@@ -10,7 +10,10 @@ background是CSS简写属性。
 `background-repeat`    
 `background-attachment`    
 `background-color`      
-(**推荐书写顺序**---注意`background-position`和`background-size`中间的斜杆是固定写法)
+::: warning 警告
+以上顺序是推荐书写顺序。
+注意`background-position`和`background-size`中间的**斜杆**是固定写法
+:::
 
 对于所有简写属性，任何没有被指定的值都会被设定为它们的`初始值`。
 

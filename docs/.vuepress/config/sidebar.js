@@ -23,7 +23,8 @@ module.exports = {
         '',
         'arrowfunction',
         'module',
-        'promise'
+        'promise',
+        'async_await'
     ],
     '/blog/other/': [
         '',
@@ -31,7 +32,6 @@ module.exports = {
         'git',
         'markdown_grm',
         'vuepress_use',
-        'initserver',
         'reSystem'
     ],
     '/blog/DBCss/':[

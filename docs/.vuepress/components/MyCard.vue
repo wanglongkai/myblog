@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>姓名：王龙楷</p>
-        <p>地址：重庆巫溪</p>
+        <p style="font-weight: 700;">内容和样式还在规划中......</p>
     </div>
 </template>
 

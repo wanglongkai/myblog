@@ -19,7 +19,7 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        lastUpdated: 'Update Time',//基于git的commit，所以不一定会生效
+        lastUpdated: '作者：王龙楷；标签：原创；提交时间',//基于git的commit，所以不一定会生效
         nav: nav,
         sidebar:sidebar,
         sidebarDepth: 2

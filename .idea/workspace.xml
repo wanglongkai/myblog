@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/MyCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/async_await.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/MyCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/MyCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/css_background.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/css_background.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/promise.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/promise.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/initserver.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/md书写规范" beforeDir="false" afterPath="$PROJECT_DIR$/md书写规范" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +45,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/blog/DBCss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\aprojects\VueFolder\vuepress-starter\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES_Next" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES3_5" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\other" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES_Next" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -95,7 +101,9 @@
       <workItem from="1589623879671" duration="1479000" />
       <workItem from="1589763753380" duration="1400000" />
       <workItem from="1589788416752" duration="1692000" />
-      <workItem from="1589791067419" duration="1355000" />
+      <workItem from="1589791067419" duration="1707000" />
+      <workItem from="1589848669785" duration="6327000" />
+      <workItem from="1589937781690" duration="654000" />
     </task>
     <servers />
   </component>
@@ -110,10 +118,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587948725948" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1589765290232">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1589873568385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589765290232" />
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589873568385" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1589079233714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
