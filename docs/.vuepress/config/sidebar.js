@@ -9,12 +9,13 @@ module.exports = {
     ],
     '/blog/ECMAScript/ES3_5/':[
         '',
+        'JS_camera',
+        'designModule',
+        'cookies',
+        'myCookiejs',//自己封装的Cookie操作库
         'js_important',
         'code_segment',
         'js_art',
-        'cookies',
-        'myCookiejs',//自己封装的Cookie操作库
-        'designModule',
         'debounce_throttle',
         'hw_offset',
 
