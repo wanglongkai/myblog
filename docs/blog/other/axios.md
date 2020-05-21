@@ -5,7 +5,6 @@
 - 支持`Promise`API
 - 拦截请求和相应
 - 转换请求和响应数据
-- 取消请求
 - 自动转换JSON数据
 
 <br/>
@@ -91,9 +90,7 @@ axios({
 });
 ```
 
-**常用配置选项：**[详细配置](https://www.kancloud.cn/yunye/axios/234845)
-
-只有`url`是必须的，`method`没指定时，默认使用`get`。
+**常用配置选项：**[详细配置](https://www.kancloud.cn/yunye/axios/234845) 只有`url`是必须的，`method`没指定时，默认使用`get`。
 
 ```javascript
 {
