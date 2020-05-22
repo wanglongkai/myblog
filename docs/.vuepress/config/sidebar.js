@@ -10,6 +10,7 @@ module.exports = {
     '/blog/ECMAScript/ES3_5/':[
         '',
         'JS_camera',
+        'WebSocket',
         'designModule',
         'cookies',
         'myCookiejs',//自己封装的Cookie操作库

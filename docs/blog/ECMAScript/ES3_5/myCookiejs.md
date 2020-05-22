@@ -1,9 +1,8 @@
 # Cookie操作模块
 
 ::: tip 提示
-
+`import Cookie from 'wlkCookie.js'`    
 自己封装的操作cookie的模块。包括：set、get、remove三个方法。
-
 :::
 
 ## Cookie.get(name)

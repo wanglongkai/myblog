@@ -166,10 +166,11 @@ obj.toString()===>obj={name;"wlk"}--->"[object Object]"
 <br/><br/>
 
 生成两个值之间的随机数
-
 ```javascript
 Math.floor(Math.random()*(max-min))+min;
 ```
+<br/><br/>
 
+`IndexedDB`是一个浏览器中使用的数据库，类似于`local Storage`,存储容量更大。[Dexie](https://dexie.org/)是一个对`IndexedDB`进行了封装的库。
 
 
