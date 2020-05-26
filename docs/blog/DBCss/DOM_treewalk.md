@@ -1,13 +1,8 @@
 # DOM节点遍历
 
 ## 各类型节点遍历
-
-包括文本节点、注释节点等。
-
-### 图示：
-
+### 图示
 ![节点树](../assets/img/allnodes.png)
-
 ### [Node.parentNode](https://developer.mozilla.org/zh-CN/docs/Web/API/Node/parentNode)
 返回指定节点在DOM树中的**父节点**。    
 `parentNode`是指定节点的父节点。一个元素节点的父节点可能是一个元素(`Element`)节点,也可能是一个文档(`Document`)节点,或者是文档碎片(`DocumentFragment`)节点。
@@ -32,11 +27,11 @@
 
 返回当前节点的最后一个子节点，如果无子节点，则返回 `null`。
 
-
+<br/><br/>
 
 ## 元素节点遍历
 
-### 图示：
+### 图示
 
 ![元素节点树](../assets/img/element.png)
 

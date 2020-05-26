@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/DOM_treewalk.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/allnodes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/element.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/DOM_style.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/DOM.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/DOM_crud.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/DOM_treewalk.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/DOM_treewalk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/css_important.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/grid.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <workItem from="1590110954295" duration="3434000" />
       <workItem from="1590325270842" duration="51000" />
       <workItem from="1590371911795" duration="11000" />
-      <workItem from="1590459666443" duration="4900000" />
+      <workItem from="1590459666443" duration="6368000" />
     </task>
     <servers />
   </component>

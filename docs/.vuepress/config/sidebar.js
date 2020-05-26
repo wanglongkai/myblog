@@ -39,16 +39,15 @@ module.exports = {
     ],
     '/blog/DBCss/':[
         '',
+        'IFC',
+        'BFC',
         'DOM_crud',
         'DOM_treewalk',
-        'css_important',
-        'css-segment',
-        'css-view',
+        'DOM_style',
         'css_background',
-        'grid',
+        'css-view',
         'flex',
         'less',
-        'IFC',
-        'BFC'
+        'css-segment',
     ]
 };
