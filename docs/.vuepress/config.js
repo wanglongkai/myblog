@@ -3,7 +3,7 @@ const sidebar = require('./config/sidebar');
 
 module.exports = {
     base: '/wanglk/',
-    title: '狼子笔记-个人博客',
+    title: '狼子笔记',
     description: '王龙楷个人博客,王龙楷,狼子笔记,个人博客,前端笔记,面试技巧,Vue,javascript,DBCss,html5',
     head: [
         ['link', {rel: 'icon', href: '/favicon.ico'}],

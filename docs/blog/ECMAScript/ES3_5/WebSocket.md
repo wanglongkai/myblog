@@ -76,8 +76,9 @@ socket.addEventListener('close',(event)=>{
 
 ```javascript
 setTimeout(()=>{
-    socket.close(3005,"我就是要关闭它")
+    socket.close(3005,"我就是要关闭它");
 },3000);
+// 3005，默认1000。该值自定义时取值范围为[3000-4000]。
 ```
 ::: warning 警告
 `WebSocket API`是异步API。

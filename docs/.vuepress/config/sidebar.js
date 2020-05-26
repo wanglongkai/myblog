@@ -39,6 +39,7 @@ module.exports = {
     ],
     '/blog/DBCss/':[
         '',
+        'DOM',
         'css_important',
         'css-segment',
         'css-view',
