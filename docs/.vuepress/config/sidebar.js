@@ -39,7 +39,8 @@ module.exports = {
     ],
     '/blog/DBCss/':[
         '',
-        'DOM',
+        'DOM_crud',
+        'DOM_treewalk',
         'css_important',
         'css-segment',
         'css-view',

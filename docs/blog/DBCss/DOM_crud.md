@@ -77,7 +77,7 @@ document.body.appendChild(p);
 `referenceNode` 引用节点不是可选参数——你必须显式传入一个` Node` 或者 `null`。如果不提供节点或者传入无效值，在不同的浏览器中会有不同的表现。
 :::
 **示例：**
-```javascript {9}
+```javascript {10}
 /*
 <div id="parentElement">
   <span id="childElement">我是参考节点</span>

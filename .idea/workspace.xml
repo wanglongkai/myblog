@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/DOM.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/DBCss/DOM_treewalk.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/allnodes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/assets/img/element.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/WebSocket.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/WebSocket.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/DOM.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/DOM_crud.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +47,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets\img" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES3_5" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\other" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES_Next" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES3_5" />
@@ -107,7 +108,7 @@
       <workItem from="1590110954295" duration="3434000" />
       <workItem from="1590325270842" duration="51000" />
       <workItem from="1590371911795" duration="11000" />
-      <workItem from="1590459666443" duration="3760000" />
+      <workItem from="1590459666443" duration="4900000" />
     </task>
     <servers />
   </component>
