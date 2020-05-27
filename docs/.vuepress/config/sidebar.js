@@ -31,6 +31,7 @@ module.exports = {
     '/blog/other/': [
         '',
         'axios',
+        'cross-origin',
         'regexp',
         'git',
         'markdown_grm',
