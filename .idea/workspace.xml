@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/other/cross-origin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/BottomNav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/Hone.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/SuibiItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/Title.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icons/desk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/daily/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/daily/question1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/DBCss/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/DBCss/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES3_5/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/ECMAScript/ES_Next/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/cross-origin.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/cross-origin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/markdown_grm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/markdown_grm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/other/reSystem.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/other/reSystem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +50,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/blog/other" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/blog/daily" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\aprojects\VueFolder\vuepress-starter\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\daily" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\other" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets\img" />
+      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES3_5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES3_5" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\javascript\ES3_5" />
       <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\vue\vue_basic" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\other" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\DBCss" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\assets\img" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES3_5" />
-      <recent name="D:\aprojects\VueFolder\vuepress-starter\docs\blog\ECMAScript\ES_Next" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -110,7 +120,11 @@
       <workItem from="1590371911795" duration="11000" />
       <workItem from="1590459666443" duration="7573000" />
       <workItem from="1590570359806" duration="30000" />
-      <workItem from="1590581951246" duration="223000" />
+      <workItem from="1590581951246" duration="960000" />
+      <workItem from="1590631526816" duration="819000" />
+      <workItem from="1590632460640" duration="4227000" />
+      <workItem from="1590636927185" duration="80000" />
+      <workItem from="1590646291122" duration="6421000" />
     </task>
     <servers />
   </component>
@@ -133,9 +147,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589079233714" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590138430669">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590650937539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590138430669" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590650937539" />
   </component>
 </project>

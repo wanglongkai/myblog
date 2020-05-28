@@ -24,6 +24,9 @@ module.exports = [
         text: 'Others',link:'/blog/other/'
     },
     {
+        text:'随笔',link:'/blog/daily/'
+    },
+    {
         text: '我的作品',
         items: [
             {text:'模仿小米网首页',link:'http://119.45.114.204:8080/xiaomi/index.html'},

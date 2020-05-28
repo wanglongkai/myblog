@@ -50,7 +50,7 @@
 
 markdown支持有序列表和无序列表
 
-### 无序列表使用星号、加号、减号作为列表标记
+### 无序列表
 
 ```markdown
 * red
@@ -81,14 +81,14 @@ markdown支持有序列表和无序列表
 + ree
 
 
-### 有序列表使用数字接一个英文句号
+### 有序列表
 
 ```markdown
 1. red
 2. Green
 3. Blue
 
-
+------
 1. 列表带入区块引用
     > 你好
     
@@ -102,8 +102,7 @@ markdown支持有序列表和无序列表
 2. Green
 3. Blue
 
-
-
+------
 1. 列表带区块引用
 
    > 你好
@@ -173,7 +172,7 @@ function test(){
 
 
 ## 转意
-### 反斜杠
+反斜杠
 ```markdown
 \*你好\*
 ```
@@ -185,14 +184,16 @@ function test(){
 ```markdown
 <https://www.baidu.com/>
 ```
-<https://www.baidu.com/> 相当于html中的：
+<https://www.baidu.com/>    
+相当于html中的：
 
 ```
 <a href="http://example.com/">http://example.com/</a>
 ```
 
 
-
+## 空格
+全角状态下的空格，`shift+space`切换全半角状态。
 
 
 

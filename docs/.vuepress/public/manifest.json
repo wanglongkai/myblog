@@ -1,0 +1,30 @@
+{
+  "name": "WangLK",
+  "short_name": "WangLK",
+  "lang": "zh-ZN",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "狼子笔记",
+  "icons": [{
+    "src": "icons/desk.jpg",
+    "sizes": "48x48",
+    "type": "image/jpg"
+  }, {
+    "src": "icons/desk.jpg",
+    "sizes": "72x72",
+    "type": "image/jpg"
+  }, {
+    "src": "icons/desk.jpg",
+    "sizes": "96x96",
+    "type": "image/jpg"
+  }, {
+    "src": "icons/desk.jpg",
+    "sizes": "144x144",
+    "type": "image/jpg"
+  }, {
+    "src": "icons/desk.jpg",
+    "sizes": "168x168",
+    "type": "image/jpg"
+  }]
+}

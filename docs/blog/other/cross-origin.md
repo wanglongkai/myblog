@@ -1,18 +1,21 @@
 # 跨域解决方案
+::: tip 什么是跨域？
+只有 **`协议`，`域名`，`端口`** 三者都相同时才是同源请求，只要有任意一个不同就是`跨域`。
+:::
 
-只有**`协议`，`域名`，`端口`**三者都相同时才是同源请求，只有有任意一个不同就会`跨域`。
 ## JSONP
-JSONP跨域需要服务器端的支持。
-有一类特殊标签：`script`，`img`， `link`，`iframe`...，这类标签**不存在跨域请求的限制**。借助**`script`**标签的这个特性，就可以实现`JSONP`跨域请求。   
+JSONP跨域需要服务器端的配合。
+有一类特殊标签：`script`，`img`， `link`，`iframe`...。   
+这类标签**不存在跨域请求的限制**。借助 **`script`** 标签的这个特性，就可以实现`JSONP`跨域请求。   
 
-**实现原理如下：**    
-通过`script`标签的`src`属性发送一个有些特殊的`GET`请求。请求格式如下：
+**实现原理：**    
+通过`script`标签的`src`属性发送一个`GET`请求。请求格式如下：
 
 ```html
 <script src="需要请求的接口地址?callback=myfunc"></script>
 ```
 `myfunc`是预先定义在**全局**的自定义函数。    
-服务器会将`callback=myfunc`形式的query字符串进行特殊处理，然后返回数据。被返回的数据会作为`myfunc`函数的参数。这样我们就可以在本地获取到不同域的数据了。    
+服务器端会将`callback=myfunc`形式的query字符串提取出来进行特殊处理，然后返回给客户端`myfunc(somedata)`形式的字符串，被返回的数据也就是`myfunc`函数的参数。这样就可以在客户端获取到不同域的数据。    
 
 **示例：**    
 `server.js`:
@@ -23,13 +26,14 @@ app.listen(8001,()=>{
 	console.log("server created!");
 });
 app.get("/list",(req,res)=>{
+    // 提取callback query字符串
 	let {callback=Function.prototype} = req.query;
 	// 模拟被返回的数据
 	let data = {
 		code:123,
 		message:"jsonp Test"
 	};
-	//以字符串形式返回数据
+	//以字符串形式返回数据 callback(data)
 	res.send(`${callback}(${JSON.stringify(data)})`);
 });
 ```
@@ -52,12 +56,12 @@ app.get("/list",(req,res)=>{
 </body>
 </html>
 ```
-浏览器控制台会打印服务器返回的数据(会自动进行**反序列化**)。
+浏览器控制台会打印服务器返回的数据(浏览器会自动进行**反序列化**)。
 
 
 ## CORS跨域资源共享
 目前最常用的一种解决方式。    
-通过**服务器端设置响应头信息**实现。客户端不需要做特别的处理。    
+通过**服务器端设置响应头信息**实现。客户端一般不需要做特别的处理。    
 服务端需要设置的头信息大致包括：    
 
 - `Access-Control-Allow-Origin`：允许哪个域可以跨域请求资源。
@@ -69,7 +73,7 @@ app.get("/list",(req,res)=>{
 
 在进行跨域请求时，会有一个`预请求(options)`，服务器需要处理该预请求。    
 
-**示例：**
+**示例：**    
 `server.js`:
 ```javascript
 let express = require('express');
@@ -124,7 +128,8 @@ app.post("/list",(req,res)=>{
 ## devServer-proxy
 这个方法只在开发环境有效。    
 核心点是借助[`http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware#proxycontext-config)中间件实现服务器代理。    
-通过进行webpack配置、Vue-cli脚手架配置或Create-react-app脚手架配置来实现开发环境下的服务器代理。
+通过进行`webpack配置`、`Vue-cli脚手架配置`或`Create-react-app脚手架配置`来实现开发环境下的服务器代理。    
+
 **[webpack配置](https://www.webpackjs.com/configuration/dev-server/#devserver-proxy)**:    
 
 ```javascript
@@ -173,8 +178,8 @@ module.exports = function(app) {
 ```
 
 ## 其他解决方案
-### window.postMessage
-### webSocket协议
-### document.domain+iframe
-### window.name+iframe
-### location.hash+iframe
+- window.postMessage
+- webSocket协议
+- document.domain+iframe
+- window.name+iframe
+- location.hash+iframe
