@@ -6,7 +6,7 @@ sidebar: auto
 
 今天逛知乎，看到这么一道JavaScript面试题，觉得考察的知识点还挺多的，故而记录下自己的做题过程。
 
-## 题目如下：
+## 题目如下
 
 ```javascript
 function Foo() {
@@ -180,7 +180,7 @@ alert的值为：3。
 
 
 
-## 最终答案：
+## 最终答案
 
 ```javascript
 //答案：
@@ -192,5 +192,3 @@ new Foo.getName();//2
 new Foo().getName();//3
 new new Foo().getName();//3 
 ```
-
-<BottomNav pre="/wanglk/blog/1" next="/wanglk/blog/2"></BottomNav>

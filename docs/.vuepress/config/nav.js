@@ -10,6 +10,13 @@ module.exports = [
         ]
     },
     {
+        text:'React',
+        items:[
+            {text:'redux概念理解',link:'/blog/react/redux_core.md'},
+            {text:'redux三大原则',link:'/blog/react/redux_core.md'}
+        ]
+    },
+    {
         text: 'JavaScript',
         items: [
             {text: 'JS3_5', link: '/blog/ECMAScript/ES3_5/'},
