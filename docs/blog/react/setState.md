@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # this.setState
 
 该方法是React组件内更新state，进而更新界面的唯一方式。
@@ -47,7 +51,7 @@ this.setState(function(oldState,props){
 ```
 
 
-
+<br/><br/>
 
 
 ## setState注意点
@@ -82,4 +86,3 @@ this.setState(function(oldState,props){
   }) // 这种写法更直观，但是效率稍慢一些。
   ```
 
-  
