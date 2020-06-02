@@ -1,7 +1,6 @@
 ---
 sidebar: auto
 ---
-
 # Redux核心点理解
 
 其实Redux本身并不复杂。我们只要理解了`state`、`action`、`reducer`这几个核心概念，就可以学会Redux。
@@ -16,7 +15,7 @@ sidebar: auto
 
 ### action
 
-`action`，一个普通的JavaScript对象(真的就是一个普通的JavaScript对象，没有什么了不起的技术)。它的主要作用就是描述我们要做什么而已。
+`action`，一个普通的JavaScript对象(真的就是一个普通的JavaScript对象，没有什么了不起的技术)或者是返回对象的函数。它的主要作用就是描述我们要做什么而已。
 
 ```javascript
 {type:"count_ADD",num:2}

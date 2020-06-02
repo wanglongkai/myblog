@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/daily/Reactcompulicated.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/react/redux_core.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/BottomNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/daily/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/daily/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/daily/question1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/daily/question1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/react/redux_core.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/react/redux_core.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/blog/react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\aprojects\VueFolder\vuepress-starter\node_modules\prettier" />
   </component>
@@ -118,7 +113,8 @@
       <workItem from="1590646291122" duration="6421000" />
       <workItem from="1590669660462" duration="1285000" />
       <workItem from="1590714461742" duration="14000" />
-      <workItem from="1590736498168" duration="592000" />
+      <workItem from="1590736498168" duration="980000" />
+      <workItem from="1590738118871" duration="26000" />
     </task>
     <servers />
   </component>
