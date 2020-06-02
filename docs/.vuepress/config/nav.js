@@ -14,6 +14,7 @@ module.exports = [
         items:[
             {text:'this.setState',link:'/blog/react/setState.md'},
             {text:'React.lazy&React.Suspense',link:'/blog/react/Lazy&Suspense.md'},
+            {text:'Context',link:'/blog/react/Context.md'},
             {text:'redux概念理解',link:'/blog/react/redux_core.md'}
         ]
     },

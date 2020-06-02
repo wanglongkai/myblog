@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # 组件懒加载
 
 [React中文官网-React.lazy](https://react.docschina.org/docs/code-splitting.html#reactlazy)
@@ -26,7 +30,7 @@ const LazyComponent = React.lazy(()=>import('./components/LazyComponent'));
 
 懒加载组件的使用和普通组件也略微不同。**必须**在`React.Suspense`内置组件中使用。
 
-```react
+```javascript
 import React from 'react';
 
 const LazyComponent = React.lazy(() => import('./components/LazyComponent'));

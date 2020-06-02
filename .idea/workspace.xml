@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c76cf5d-434b-4b99-bce4-361239a4244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/blog/react/Lazy&amp;Suspense.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog/react/Context.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/react/setState.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/react/setState.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blog/react/Lazy&amp;Suspense.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/react/Lazy&amp;Suspense.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <workItem from="1590714461742" duration="14000" />
       <workItem from="1590736498168" duration="980000" />
       <workItem from="1590738118871" duration="26000" />
-      <workItem from="1591080960494" duration="2702000" />
+      <workItem from="1591080960494" duration="4098000" />
     </task>
     <servers />
   </component>
