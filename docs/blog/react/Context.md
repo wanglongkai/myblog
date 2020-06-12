@@ -12,7 +12,7 @@ sidebar: auto
 
 ### React.CreateContext(defaultValue)
 
-创建一个Context对象。由于**提供和使用**时，都需要导入`Context`，所以需要单独抽离。
+创建一个Context对象。由于**提供和使用**时都需要导入`Context`，所以需要单独抽离。
 
 ```javascript
 import React from 'react';
@@ -26,7 +26,7 @@ export default MyContext;
 
 为`Provider`组件包裹的**组件树**提供上下文数据。当 Provider 的 `value` 值发生变化时，它内部的所有消费组件都会重新渲染。
 
-```javascript
+```javascript {9-11}
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -49,7 +49,7 @@ ReactDOM.render(
 
 `static contextType = MyContext;`这一行代码是必不可少的，有了它之后在组件的任何生命周期函数中就可以通过`this.context`获取到`Provider`组件提供的值.
 
-```javascript
+```javascript {5,8}
 import React from 'react';
 import MyContext from './MyContext'
 
@@ -72,7 +72,7 @@ export default ContextConsum;
 
 注意的是，插值中接受一个函数，该函数的参数就是`Provider`提供的数据。
 
-```javascript
+```javascript {7-11}
 import React from 'react';
 import MyContext from './MyContext'
 
@@ -98,7 +98,7 @@ export default ContextConsum;
 
 `Context.Provider`API接受代码中改成如下就会使用默认值：
 
-```javascript
+```javascript {8}
 import React from 'react';
 import ReactDOM from 'react-dom';
 
